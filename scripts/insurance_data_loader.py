@@ -11,7 +11,6 @@ class DataLoader:
         self.file_path = file_path
         self.df = None
         self.date_cols = []
-        self.original_shape = self.df.shape
         self.transformations = []
         self.DATE_COLS = ["TransactionMonth", "VehicleIntroDate"]
 
